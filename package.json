@@ -1,0 +1,38 @@
+{
+  "name": "bg-transcriber",
+  "version": "1.0.0",
+  "description": "A web app for transcribing backgammon games to be able to export them to XG+",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Noerdsteil/bg-transcriber.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Noerdsteil/bg-transcriber/issues"
+  },
+  "homepage": "https://github.com/Noerdsteil/bg-transcriber#readme",
+  "dependencies": {
+    "@tailwindcss/vite": "^4.0.5",
+    "lucide-vue-next": "^0.475.0",
+    "pinia": "^2.3.1",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.1",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/tsconfig": "^0.7.0",
+    "autoprefixer": "^10.4.20",
+    "tailwindcss": "^4.0.5",
+    "typescript": "^5.7.3",
+    "vite": "^6.1.0",
+    "vue-tsc": "^2.2.0"
+  }
+}
